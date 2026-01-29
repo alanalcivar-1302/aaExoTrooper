@@ -111,3 +111,11 @@ GOOD : BioSensor/BioEscaner Asistir (Energía) Energía_	BioSensor,  Energía_Bi
 ERROR: Acceso denegado.
 ERROR: Acceso denegado.
 ERROR: Acceso denegado.
+GOOD : Acceso concedido
+GOOD : Acceso concedido
+GOOD : SoldadoExperto-GPS GPS/Giroscopio Detectar (Energía)
+GOOD : SoldadoExperto-GPS GPS/Giroscopio Detectar (Energía)
+GOOD : GPS/Giroscopio Detectar (Energía) Energía_GPS,    Energía_Giroscopio				,Munición_	Fusil,  Munición_Revolver
+GOOD : GPS/Giroscopio Detectar (Energía) Energía_GPS,    Energía_Giroscopio				,Munición_	Fusil,  Munición_Revolver
+ERROR: ExoExplorador No Entrenado.
+GOOD : Acceso concedido

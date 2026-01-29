@@ -7,10 +7,22 @@ public abstract class aaExobot {
     protected int aaNumeroAccion;
     protected String aaArmaNombre;
     
+    // Composition: Parts of the Exobot
+    protected aaBrazo aaBrazoIzquierdo;
+    protected aaBrazo aaBrazoDerecho;
+    protected aaPierna aaPiernaIzquierda;
+    protected aaPierna aaPiernaDerecha;
+    
     public aaExobot(String aaTipoExobot) {
         this.aaTipoExobot = aaTipoExobot;
         this.aaNumeroAccion = 0;
         this.aaEntrenado = false;
+        
+        // Initialize Core Components (Composition)
+        this.aaBrazoIzquierdo = new aaBrazo();
+        this.aaBrazoDerecho = new aaBrazo();
+        this.aaPiernaIzquierda = new aaPierna();
+        this.aaPiernaDerecha = new aaPierna();
     }
 
     public abstract String aaRealizarAccion();
